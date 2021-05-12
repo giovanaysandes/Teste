@@ -1,0 +1,57 @@
+header img  {
+    width: 100%;
+}
+
+.organizacao{
+    display: flex;
+    align-items: center;
+}
+
+.organizacao img{
+
+    height:300px;
+    text-align: left;
+}
+
+p, h1{
+    text-indent: 20px;
+}
+body{
+    margin:0;
+}
+
+.portifolio {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-bottom: 30px;
+}
+.portifolio img {
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid none;
+    margin: 10px;
+}
+
+.person {
+    text-align: center;
+}
+
+.firstperson img {
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 10px;
+    margin:30px auto;
+    
+}
+
+.firstperson {
+    width: 100%;
+    background-color: #FFCDAA;
+    text-align: center;
+    margin: 45px 0;
+}
+
+footer img{
+    height: 150px;
+}
